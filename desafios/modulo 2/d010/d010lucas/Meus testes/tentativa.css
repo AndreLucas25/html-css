@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+header{
+    background: linear-gradient(to bottom, rgba(0, 204, 105, 0.266), green);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 204, 105, 0.266);
+}
+
+main{
+    background-color: white;
+    width: 800px;
+    height: 2425px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+ 
+header > p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.fonts{
+    font-family: idroid;
+    color: rgb(0, 132, 0);
+}
+
+h2.fonts{
+    background-image: linear-gradient(to right, #3ddc8579, transparent);
+    padding: 2px 5px 2px 5px;
+}
+
+aside{
+    background-color: rgba(0, 204, 105, 0.266);
+    border-radius: 5px;
+    width: 800px;
+    padding: -10px;
+    margin: auto;
+    line-height: 1.0em;
+    font-size: 1.0em;
+}
+
+aside > p{
+    text-indent: 10px;
+    text-align: justify;
+}
+
+h3{
+    background-color: rgba(0, 164, 63, 0.755);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div#video{
+    background-color: rgb(0, 106, 12);
+    padding: 20px;
+    margin: -5px -10px 0px -10px;
+}
+
+p{
+    text-indent: 10px;
+}
+
+footer{
+    background-color: rgb(0, 68, 8);
+    padding: 0px 0px 3px 0px;
+    color: white;
+    text-align: center;
+}

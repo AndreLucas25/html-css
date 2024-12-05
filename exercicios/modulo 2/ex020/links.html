@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: white;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial{
+            background-color: black;
+            
+        }
+
+        a::after{
+            content: ' \00270F';
+            texte-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        a::before{
+            content: '\00268A ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/andreLucas25" target="_blank" rel="external">Repositorio GitHub</a></li>
+        <li><a href="https://youtu.be/vMlrcOVr7po?si=ycp-O9b10K1IyZbG" target="_blank" rel="external" class="especial">Canal no youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/cursos/" target="_blank" rel="external">Meu site na internet</a></li>
+    </ul>
+</body>
+</html>
